@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Khushi's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+
+<body>
+
+  <!------------------------------Home Content----------------------------- -->
+
+  <header class="header">
+    <a class="logo" href="#"><span id="letter-k">K</span>hushi.</a>
+    <nav class="navbar">
+      <a href="#home" style="--i:1" class="active">Home</a>
+      <a href="#about" style="--i:2" >About</a>
+      <a href="#portfolio" style="--i:4">Portfolio</a>
+      <a href="#contact" style="--i:5">Contact</a>
+    </nav>
+  </header>
+  <section id="home" class="home">
+    <div class="home-content">
+      <i id="bx" class='bx bx-menu'></i>
+      <i id="bx" class='bx bx-x'></i>
+      <h3>Hello, It's Me</h3>
+      <h1>Khushi Patel</h1>
+      <h3>And I'm <span class="text"></span></h3>
+      <p>A Passionate Public Health Student Committed to Improving Health Outcomes for All and Making a Positive Impact in Communities.</p>
+      <div class="home-sci">
+        <a href="https://www.linkedin.com/in/patel-khushi/" target="_blank" style="--i:1"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.instagram.com/dazzler__00/" target="_blank" style="--i:2"><i class='bx bxl-instagram'></i></a>
+      </div>
+      <a href="#about" class="btn-box">More About me</a>
+    </div>
+  </section>
+  <div id="container">
+    <div class="profile-content">
+      <img id="profile-pic" src="images/Khushi.png" alt=" khushi profile picture">
+      <h2><span>Teach me and I'll remember.</span><br><br><span>Involve me and I'll learn.</span></h2><br>
+      <a href="mailto:khushipatel8909@gmail.com">Hire Me</a><br><h2><span>And I'll make an impact.</span></h2>
+    </div>
+  </div>
+  <script src="main.js"></script>
+
+  <!------------------------------About Content----------------------------- -->
+  <div id="about">
+    <div class="about-container">
+      <div class="row">
+        <div class="about-col-1">
+          <img class="khushi-niagara" src="images/Khushi3.jpeg" alt="Khushi About Image">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</span></h1>
+          <p>As a passionate public health student, I believe that everyone deserves access to healthcare and a fulfilling life. Through my academic and professional experiences, I have developed a deep understanding of the complex social, environmental, and behavioural factors that influence health outcomes. I am committed to advocating for policies that address health disparities and promote health equity. As a future public health professional, I am excited to collaborate with colleagues and community partners to develop innovative solutions that improve health outcomes for all.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Data Analysis</span><br>Collects,  analyzes, and interprets  data</li>
+              <li><span>Policy Analysis</span><br>Conducts reserach, collect data, and evaluate policies</li>
+              <li><span>Health Communication</span><br>Develops and implements effective communication strategies to educate and inform  communities about health issues and promote healthy behaviours</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Volunteer Policy Developer</span><br>Bernhard Nordkamp Centre(BNC) Internship<br>Jan 2023 - April 2023</li>
+
+              <li><span>International Student Ambassador</span><br>Brock University<br>September 2022 - April 2023</li>
+
+              <li><span>Peer Health Educator</span><br>Brock University<br>September 2021 - April 2023</li>
+
+              <li><span>Community Development Intern</span><br>City of Welland<br>May 2022 - August 2022</li>
+
+              <li><span>Logistics Associate</span><br>The Canadian Shield<br>May 2020 - June 2021</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Honours Bachelor of Public Health</span><br>Brock University<br>2019 - 2023</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- -----------Portfolio Section---------- -->
+
+  <div id="portfolio">
+    <div class="portfolio-container">
+      <div>
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Project-1.png" alt="">
+            <div class="layer">
+              <h3>Health Geography</h3>
+              <p>Using ArcGIS Pro examining whether there is a spatial correlation between the distribution of opioid-related deaths and the availability of ambulance services to respond to opioid overdoses across LHINs in Ontario.</p>
+              <a href="https://storymaps.arcgis.com/stories/57b29bd5c32c4c8fba7ee94d8b0cc5c9" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Project-2.jpg" alt="">
+            <div class="layer">
+              <h3>Health Data Analysis</h3>
+              <p>Using R, examining whether there is a potential relationship between the ratio of family income to poverty and working hours and investigate if there is a difference among distinct ethnic groups.</p>
+              <a href="https://drive.google.com/file/d/1Shf35A7wiaOCd6vq0aBFSHnl9DfF1XMS/view?pli=1" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Project-3.png" alt="">
+            <div class="layer">
+              <h3>Public Health Research</h3>
+              <p>Examining the prevalence of phubbing behaviour among students at Brock University and the associated circumstantial behaviours of the students being phubbed.</p>
+              <a href="https://drive.google.com/file/d/1OeCLtVsl1d0tn3s3f3JpmN7EvCC5jiJ3/view" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://www.linkedin.com/in/patel-khushi/details/projects/" target="_blank" class="btn">See More</a>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- --------------contact-------------------- -->
+  <div id="contact">
+    <div class="contact-container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class='bx bxs-send'></i> khushipatel8909@gmail.com</p>
+          <p><i class='bx bxs-phone' ></i> +1(519)-716-2102</p>
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/patel-khushi/" target="_blank" style="--i:1"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/dazzler__00/" target="_blank" style="--i:2"><i class='bx bxl-instagram'></i></a>
+          </div>
+          <a href="resume/Khushi_Patel.Resume .docx" download class="btn btn2">Download Resume</a>
+        </div>
+
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="copyright">
+    <p>Copyright <i class='bx bxs-copyright' ></i> Khushi Patel</p>
+  </div>
+
+<script>
+
+  var tablinks = document. getElementsByClassName("tab-links");
+  var tabcontents = document. getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxVUwtv3ITtvNm2QAoBuFCLxwLndfxhJon_wqrBCJ_O6L91txQzPnrbsr8e00fZB3j1/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+
+</html>
